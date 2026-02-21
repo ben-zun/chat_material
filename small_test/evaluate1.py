@@ -36,7 +36,7 @@ BGE_DIR = "./hf_cache/transformers/models--BAAI--bge-m3/snapshots/5617a9f61b0280
 SPLADE_DIR = "./hf_cache/transformers/models--naver--splade-cocondenser-ensembledistil/snapshots/49cf4c7b0db5b870a401ddf5e2669993ef3699c7"
 RERANK_DIR = "./hf_cache/transformers/models--BAAI--bge-reranker-base/snapshots/2cfc18c9415c912f9d8155881c133215df768a70"
 
-ARK_API_KEY = os.getenv("ARK_API_KEY", "1550c65b-2643-4c98-9c89-e63c2762cbe8")
+ARK_API_KEY = os.getenv("ARK_API_KEY", "")
 ARK_BASE_URL = os.getenv("ARK_BASE_URL", "https://ark.cn-beijing.volces.com/api/v3/chat/completions")
 ARK_JUDGE_MODEL = os.getenv("ARK_JUDGE_MODEL", "ep-20260110133352-bczxh")
 ARK_QGEN_MODEL = os.getenv("ARK_QGEN_MODEL", ARK_JUDGE_MODEL)
